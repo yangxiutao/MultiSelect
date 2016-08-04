@@ -30,7 +30,6 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     
     if ([super initWithFrame:frame]) {
-        //insert code here
         [self addSubview:self.selectionTableView];
     }
     
